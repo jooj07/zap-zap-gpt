@@ -1,0 +1,19 @@
+{
+  "name": "zap-zap-gpt",
+  "version": "1.0.0",
+  "description": "a project to talk with gpt through whatsapp using js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "initialize": "nodemon index.js"
+  },
+  "author": "joao vitor hermenegildo bastos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0",
+    "venom-bot": "^4.3.7"
+  }
+}
